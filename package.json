@@ -14,9 +14,10 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "compile": "webpack src/main.js src/bundle.js"
+    "compile": "webpack src/comment.js src/index.js src/bundle.js"
   },
   "keywords": [],
   "author": "",
   "license": "MIT"
 }
+

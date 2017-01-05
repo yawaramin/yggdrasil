@@ -1,4 +1,4 @@
-"use strict";
+'use strict';
 
 const xs = require('xstream').default;
 const run = require('@cycle/xstream-run').run;
@@ -17,3 +17,4 @@ function main() {
 const drivers = { DOM: cycle_dom.makeDOMDriver('#app') };
 
 run(main, drivers);
+
